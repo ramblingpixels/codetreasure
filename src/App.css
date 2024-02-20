@@ -1,3 +1,136 @@
-.App {
-	text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;300;500;600;800&display=swap");
+
+body {
+	background-color: #140029;
+	background-image: url("../public/background.svg");
+	margin: 5%;
+	font-family: Poppins, sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.data-btn {
+	border-radius: 20px 0 0 20px;
+}
+
+.asn-btn {
+	border-radius: 0 20px 20px 0;
+}
+
+.inactive,
+.active {
+	border: 2px solid #00ff91;
+	padding: 3px 10px;
+	margin-top: 20px;
+}
+
+.active {
+	background-color: #00ff91;
+	color: #000000;
+	transition: all 0.2s ease;
+}
+
+.inactive {
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+
+.main-content {
+	border-radius: 10px;
+
+	margin-top: 20px;
+	overflow: hidden;
+	box-shadow: -1px -1px 12px 2px rgba(255, 255, 255, 0.2);
+}
+
+table {
+	width: 100%;
+}
+
+.heading-row {
+	background-color: #140636;
+	border-bottom: solid 2px #372649;
+}
+
+tr {
+	border-bottom: solid 1px #372649;
+}
+
+th {
+	padding: 20px;
+	position: relative;
+}
+
+td {
+	padding: 20px;
+}
+
+.container {
+	width: 150px;
+	height: 100px;
+
+	overflow: hidden;
+
+	position: relative;
+}
+
+.outer,
+.inner {
+	position: absolute;
+	inset: 50%;
+	background: red;
+	/* width: 20px;
+	height: 20px; */
+	translate: -50% -50%;
+	border-radius: 50%;
+	margin-top: 40%;
+}
+
+.outer {
+	width: 150px;
+	height: 150px;
+	background: conic-gradient(
+		rgb(72, 110, 207) 16%,
+		rgb(19, 213, 135) 16% 58%,
+		rgb(205, 203, 203) 58% 100%
+	);
+	rotate: -30deg;
+}
+
+.inner {
+	width: 80px;
+	height: 80px;
+}
+
+.tool-tip {
+	display: none;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+
+	padding: 2px;
+	font-size: 12px;
+}
+
+.icon:hover + .tool-tip {
+	display: inline;
+}
+
+.icon:hover {
+	cursor: pointer;
+}
+
+hr {
+	width: 40%;
+
+	transform-origin: 100%;
+	translate: -50%;
 }

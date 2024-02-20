@@ -1,0 +1,116 @@
+[
+	{
+		"id": 1,
+		"asn": {
+			"number": 16509,
+			"name": "AMAZON-02"
+		},
+		"avg_score": 7.25,
+		"data_centres": [
+			"16509-IE-Dublin",
+			"16509-US-Boardman",
+			"16509-JP-Tokyo",
+			"16509-US-Columbus",
+			"16509-DE-Frankfurt am Main"
+		],
+		"population": 23,
+		"delinquent": 0,
+		"private": 11,
+		"active_stake": "56,944,969"
+	},
+	{
+		"id": 2,
+		"asn": {
+			"number": 396356,
+			"name": "LATITUDE-SH"
+		},
+		"avg_score": 8.41,
+		"data_centres": ["396356-JP-Tokyo", "396356-GB-London"],
+		"population": 65,
+		"delinquent": 0,
+		"private": 7,
+		"active_stake": "56,339,204"
+	},
+	{
+		"id": 3,
+		"asn": {
+			"number": 20326,
+			"name": "TERASWITCH"
+		},
+		"avg_score": 8.28,
+		"data_centres": [
+			"20326-NL-Amsterdam",
+			"20326-IE-Dublin",
+			"20326-US-Pittsburg",
+			"20326-SG-Singapore",
+			"20326-GB-London",
+			"20326-JP-Tokyo",
+			"20326-US-Los Angeles",
+			"20326-SG-Asia/Singapore"
+		],
+		"population": 53,
+		"delinquent": 0,
+		"private": 13,
+		"active_stake": "51,762,458"
+	},
+	{
+		"id": 4,
+		"asn": {
+			"number": 16276,
+			"name": "OVH SAS"
+		},
+		"avg_score": 7.61,
+		"data_centres": [
+			"16276-FR-Strasbourg",
+			"16276-FR-Europe/Paris",
+			"16276-KZ-Asia/Almaty",
+			"16276-PL-Warsaw",
+			"16276-FR-Gravelines",
+			"16276-GB-London",
+			"16276-FR-Roubaix"
+		],
+		"population": 283,
+		"delinquent": 2,
+		"private": 47,
+		"active_stake": "35,064,367"
+	},
+	{
+		"id": 5,
+		"asn": {
+			"number": 13030,
+			"name": "Init7 (Switzerland) Ltd."
+		},
+		"avg_score": 1.0,
+		"data_centres": ["13030-CH-Aarburg"],
+		"population": 1,
+		"delinquent": 1,
+		"private": 0,
+		"active_stake": "18"
+	},
+	{
+		"id": 6,
+		"asn": {
+			"number": 51945,
+			"name": "ConnetU Ltd."
+		},
+		"avg_score": 6.0,
+		"data_centres": ["51945-GB-Europe/London"],
+		"population": 1,
+		"delinquent": 0,
+		"private": 0,
+		"active_stake": "10"
+	},
+	{
+		"id": 7,
+		"asn": {
+			"number": 216444,
+			"name": "UAB Cherrv Servers"
+		},
+		"avg_score": 6.0,
+		"data_centres": ["216444-LT-Europe/Vilnius"],
+		"population": 1,
+		"delinquent": 0,
+		"private": 0,
+		"active_stake": "1"
+	}
+]
