@@ -5,10 +5,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;300;500;600;800&display=swap");
 
 body {
-	background-color: #140029;
-	background-image: url("../public/background.svg");
+	/* background-color: #140029; */
+	background: linear-gradient(
+		45deg,
+		#140029 10%,
+		#45165a 20%,
+		#57359c 30%,
+		#140029 40%
+	);
 	margin: 5%;
 	font-family: Poppins, sans-serif;
+}
+
+.App {
+	background-image: url("../public/background.svg");
 }
 
 h1 {
@@ -67,10 +77,12 @@ tr {
 th {
 	padding: 20px;
 	position: relative;
+	font-size: 12px;
 }
 
 td {
 	padding: 20px;
+	font-size: 12px;
 }
 
 .container {
@@ -129,8 +141,31 @@ td {
 }
 
 hr {
-	width: 40%;
+	width: 30%;
 
 	transform-origin: 100%;
 	translate: -50%;
+}
+
+.cookies {
+	width: 100%;
+	border: 1px solid white;
+	background-color: rgb(255, 255, 255, 0.3);
+	border-radius: 20px;
+
+	padding: 5px 10px;
+	margin-top: 20px;
+	color: #fff;
+}
+
+.chat {
+	color: #fff;
+	float: right;
+	background-color: orange;
+	padding: 10px;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+	font-size: 24px;
 }

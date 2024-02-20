@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import "./App.css";
 import { FaInfoCircle } from "react-icons/fa";
+import { CiChat2 } from "react-icons/ci";
 import data from "./data.json";
 
 function App() {
@@ -188,6 +189,15 @@ function App() {
 			) : (
 				<div style={{ color: "white" }}>Data Centre</div>
 			)}
+
+			<div className="cookies">
+				This site uses cookies. See our{" "}
+				<span style={{ color: "#e297f7" }}>Cookie Policy</span> for details.
+			</div>
+
+			<button className="chat">
+				<CiChat2 />
+			</button>
 		</div>
 	);
 }
